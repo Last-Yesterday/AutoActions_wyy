@@ -15,7 +15,7 @@ name: auto_merge
 on:
   workflow_dispatch:
   schedule:
-    - cron: 30 14 * * fri
+    - cron: 30 14 * * 1
     # 示例： 每天晚上22点30执行 '30 14 * * *'
     #- cron: 0 7 * * fri
     # cron表达式,每周五16点执行一次，actions任务时区为UTC时区。
